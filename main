@@ -1,0 +1,47 @@
+pubic class Coleccion_vinilos {
+
+    public static void main(String[] args){
+
+        String vinilos[][] = new String[100][3];
+
+        agregarVinilo(vinilos,"Iron Maiden", "Iron Maiden","1980");
+
+        System.out.println("Espacio máximo colección: "+vinilos.length);
+
+        mostrarTotal(vinilos);
+        mostrarDisponibles(vinilos);
+
+        String artista="AC-DC";
+        System.out.println("Buscar artista: "+artista);
+        mostrarBusquedaArtista(vinilos,artista);
+
+        buscarArtista(vinilos,artista);
+        mostrarColeccion(vinilos);
+
+    }
+
+    public static int totalVinilos(String m[][]){
+
+    }
+    public static String [][] agregarVinilo(String m[][],String gru,String lp,String agno){
+
+    }
+    public static boolean buscarArtista(String m[][],String artista){
+
+    }
+    public static void mostrarColeccion(String m[][]){
+
+    }
+    public static void mostrarTotal(String m[][]){
+
+    }
+    public static void mostrarDisponibles(String m[][]){
+
+    }
+    public static int disponibles(String m[][]){
+
+    }
+    public static void mostrarBusquedaArtista(String m[][],String artista){
+
+    }
+}
